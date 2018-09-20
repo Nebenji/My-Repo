@@ -1,0 +1,34 @@
+body{
+    background: #CCC;
+}
+
+header{
+    text-align: center;
+    font-size: 2rem;
+}
+
+#class-list{
+    list-style: none;
+    width: 80vw;
+    margin: 15px auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.class-list-item{
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background: #9999FF;
+    cursor: pointer;
+}
+
+.class-list-item:hover{
+    border-color: lightblue;
+    background: #AAAAEE;
+}
+
+.selected {
+    background: yellow;
+}
